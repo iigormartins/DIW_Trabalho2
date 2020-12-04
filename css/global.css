@@ -1,0 +1,170 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+.custom-nav {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.1)
+}
+
+.navbar-custom-button{
+    border: 1px solid;
+}
+
+.navbar-custom-ul > li {
+    border-right: 1px solid black;
+}
+
+.navbar-custom-ul > li:last-of-type {
+    border-right: 0;
+}
+
+.navbar-custom-search span {
+    background-color: transparent;
+}
+
+.icon-custom-search {
+    background-color: transparent;
+    border-right: 0;
+}
+
+.navbar-custom-search input {
+    border-left: 0;
+    border-right: 0;
+}
+
+.icon-custom-close {
+    background-color: transparent;
+    border-left: 0;
+    margin-right: 2em;
+}
+
+.navbar-custom-ul {
+    margin-right: 1em;
+}
+
+.navbar-custom-ul > li > a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-custom-ul > li > a:hover{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-custom-logo img {
+    margin-left: 2em;
+}
+
+
+/* RELEASES */
+.release-header h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+/* FEATURED */
+.button-custom-more{
+    padding: 20px;
+}
+
+.button-custom-more span{
+    margin: 4px;
+}
+
+.news-custom-text p {
+    text-align: justify;
+}
+
+.social-custom-button button{
+    font-size: 45px;
+}
+
+.news-custom img{
+    margin-bottom: 10px;
+}
+
+.news-custom p {
+    text-align: justify;
+}
+
+.news-custom h5 {
+    padding-right: 5px !important;
+}
+
+.news-custom-div {
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.news-custom-div-last{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carrousel-custom-text span {
+    padding-top: 15px;
+}
+
+.carrousel-custom-text p {
+    text-align: justify;
+}
+
+/* RATINGS */
+.custom-rating i {
+    font-size: xx-large;    
+}
+
+.custom-rating p {
+    text-align: justify;
+}
+
+.custom-rating-star i {
+    font-size: large;
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
+
+.custom-section{
+    background-color: #e1e1e1;
+}
+
+.custom-padding-section {
+    padding: 20px;
+}
+
+.custom-header-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.carousel-custom {
+    min-height: 410px !important;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer .logo img{
+    height: 50px;
+}
